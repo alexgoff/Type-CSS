@@ -1,0 +1,71 @@
+body {
+    font-weight: 400;
+    font-family: $font-stack-body;
+    font-size: 100%;
+    line-height: 1.45;
+    color: $font-color-body;
+    overflow-y: scroll
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #2f2f2f;
+    display: block;
+    font-weight: 600;
+    font-family: 'Playfair Display', Georgia, Cambria, "Times New Roman", Times, serif;
+    margin: 1.25em 0 0.5em;
+    line-height: 1.2;
+}
+h1 {
+    margin-top: 0;
+    font-size: 2.441em;
+}
+h2 {
+    font-size: 1.953em;
+}
+h3 {
+    font-size: 1.563em;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+	font-size: 1em;
+}
+h6 {
+	font-size: 0.8em;
+}
+p {
+    margin-bottom: 1.3em;
+}
+a,
+a:link {
+	color: #039BE5;
+	text-decoration: none;
+}
+a:visited {
+	color: #9C27B0;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+
+}
+
+hr {
+    border-top: 1px solid #8c8b8b;
+}
+ul,
+ol {
+    padding-left: 1.5em;
+}
+code {
+	background-color: #f1f1f1;
+	border-radius: 1px;
+	padding: 0.1em 0.2em 0.1em 0.2em;
+}

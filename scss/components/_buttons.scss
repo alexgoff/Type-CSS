@@ -1,0 +1,61 @@
+/* Buttons */
+button,
+.button,
+.button:link,
+.button:visited,
+input[type="submit"],
+input[type="button"] {
+	background-color: #fff;
+	border: $border-thin;
+	border-radius: 2px;
+	color: $font-color-body;
+	cursor: pointer;
+	display: inline-block;
+	font-family: $font-stack-body;
+	line-height: 1.45;
+	margin: 0 0.25em 0.25em 0.25em;
+	padding: 0.5em 2em 0.5em 2em;
+	text-align: center;
+}
+button:hover,
+.button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover  {
+	border-color: $font-color-header;
+	color: $font-color-header;
+	text-decoration: none;
+}
+button:focus,
+.button:focus,
+input[type="submit"]:focus,
+input[type="button"]:focus {
+	outline: 0;
+}
+
+.button-primary,
+.button-primary:link,
+.button-primary:visited,
+input[type="submit"].button-primary,
+input[type="button"].button-primary {
+	background-color: #039BE5;
+	border: 1px solid #81D4FA;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 2px;
+	cursor: pointer;
+	display: inline-block;
+	font-family: $font-stack-body;
+	line-height: 1.45;
+	margin: 0 0.25em 0.25em 0.25em;
+	padding: 0.5em 2em 0.5em 2em;
+	text-align: center;
+}
+
+.button-primary:hover,
+input[type="button"].button-primary:hover,
+input[type="submit"].button-primary:hover {
+	background-color: #0288D1;
+	border: 1px solid #4FC3F7;
+	color: #fff;
+	text-decoration: none;
+}

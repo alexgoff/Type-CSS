@@ -1,0 +1,250 @@
+<!doctype html>
+<html class="" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Type CSS Framework</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Droid+Serif|Playfair+Display" rel="stylesheet">
+        <link rel="stylesheet" href="css/type.css">
+		<link rel="stylesheet" href="css/display.css">
+    </head>
+    <body id="container">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		<header>
+			<h1>Type CSS Framework</h1>
+			<p>Simple CSS for displaying text in a readable format</p>
+		</header>
+		<nav role="navigation">
+			<ul class="dropdown">
+				<li><a href="#about">About</a></li>
+				<li><a href="#grid">Grid</a></li>
+				<li><a href="#typography">Typography</a></li>
+				<li><a href="#buttons">Buttons</a></li>
+				<li><a href="#forms">Forms</a></li>
+				<!--<li class="submenu">
+					<a class="dropdown-button" href="#">Menu Item #3</a>
+					<ul>
+						<li><a href="#">2nd level dropdown</a></li>
+						<li><a href="#">2nd level dropdown</a></li>
+						<li class="submenu">
+						<a class="dropdown-button" href="#">Another dropdown</a>
+						<ul>
+							<li><a href="#">3rd level dropdown</a></li>
+							<li class="submenu">
+							<a class="dropdown-button" href="#">Another dropdown</a>
+							<ul>
+								<li><a href="#">3rd level dropdown</a></li>
+								<li><a href="#">3rd level dropdown</a></li>
+							</ul>
+							</li>
+						</ul>
+						</li>
+					</ul>
+				</li>-->
+			</ul>
+		</nav>
+		<main>
+			<section id="about">
+			<div class="row">
+				<div class="col">
+					<h2>About</h2>
+					<p>Type CSS is designed to create minimalist, functional, and easily consumable web pages. Best used for displaying text content, its purpose is to create webpages where form follows function. Text content should be easy to read, and avoid complex interactions and interfaces. Type CSS achieves this goal through lightweight pages and CSS, easily digested typography, and carefully considered design decisions that maximize consumption of information.</p>
+				</div>
+			</div>
+			</section>
+			<section id="grid">
+				<div class="row">
+					<div class="col">
+						<h2>Grid</h2>
+						<p>The grid system in Type CSS is built on flexbox and can have a variable number of columns per row. In addition to the standard layout agnostic column, Type CSS also includes a flexbox-based 12 column grid.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<p>Variable width <code>.col</code> class</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col col-bg"><code>.col</code></div>
+				</div>
+				<div class="row">
+					<div class="col col-bg"><code>.col</code></div>
+					<div class="col col-bg"><code>.col</code></div>
+				</div>
+				<div class="row">
+					<div class="col col-bg"><code>.col</code></div>
+					<div class="col col-bg"><code>.col</code></div>
+					<div class="col col-bg"><code>.col</code></div>
+				</div>
+				<div class="row">
+					<div class="col col-bg"><code>.col</code></div>
+					<div class="col col-bg"><code>.col</code></div>
+					<div class="col col-bg"><code>.col</code></div>
+					<div class="col col-bg"><code>.col</code></div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<p>Fixed width <code>.col-*</code> classes</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-1 col-bg"><code>.col-1</code></div>
+					<div class="col-11 col-bg"><code>.col-11</code></div>
+				</div>
+				<div class="row">
+					<div class="col-2 col-bg"><code>.col-2</code></div>
+					<div class="col-10 col-bg"><code>.col-10</code></div>
+				</div>
+				<div class="row">
+					<div class="col-3 col-bg"><code>.col-3</code></div>
+					<div class="col-9 col-bg"><code>.col-9</code></div>
+				</div>
+				<div class="row">
+					<div class="col-4 col-bg"><code>.col-4</code></div>
+					<div class="col-8 col-bg"><code>.col-8</code></div>
+				</div>
+				<div class="row">
+					<div class="col-5 col-bg"><code>.col-5</code></div>
+					<div class="col-7 col-bg"><code>.col-7</code></div>
+				</div>
+				<div class="row">
+					<div class="col-6 col-bg"><code>.col-6</code></div>
+					<div class="col-6 col-bg"><code>.col-6</code></div>
+				</div>
+				<div class="row">
+					<div class="col-7 col-bg"><code>.col-7</code></div>
+					<div class="col-5 col-bg"><code>.col-5</code></div>
+				</div>
+				<div class="row">
+					<div class="col-8 col-bg"><code>.col-8</code></div>
+					<div class="col-4 col-bg"><code>.col-4</code></div>
+				</div>
+				<div class="row">
+					<div class="col-9 col-bg"><code>.col-9</code></div>
+					<div class="col-3 col-bg"><code>.col-3</code></div>
+				</div>
+				<div class="row">
+					<div class="col-10 col-bg"><code>.col-10</code></div>
+					<div class="col-2 col-bg"><code>.col-2</code></div>
+				</div>
+				<div class="row">
+					<div class="col-11 col-bg"><code>.col-11</code></div>
+					<div class="col-1 col-bg"><code>.col-1</code></div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-bg"><code>.col-12</code></div>
+				</div>
+			</section>
+			<section id="typography">
+				<div class="row">
+					<div class="col">
+						<h2>Typography</h2>
+						<p>Type CSS is based on <code>em</code> units of measure. The base font-size is defined in the <code>body</code> element as <code>font-size: 100%</code> which uses the browsers default size. For most browsers this will be <code>14px</code> or <code>16px</code>.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<p>The base font is Droid Sans imported from Google Fonts, set at 100% font-sizing, with a line height of <code>1.45</code>. Body copy uses <code>#4F4F4F</code> as its display color.</p>
+						<p>Headings use Playfair Display imported from Google Fonts, sized using major third ratios with the <code>&lt;h1&gt;</code> tag set at <code>2.441em</code> scaling down to <code>&lt;h6&gt;</code> set at <code>0.8em</code>. Headings use <code>#2F2F2F</code> as its display color</p>
+						<p><a href="#random">Anchor text</a></p>
+						<p><strong>Strong</strong></p>
+						<p><em>Emphasis</em></p>
+						<p><u>Underline</u></p>
+					</div>
+					<div class="col">
+						<h1>Heading 1</h1>
+						<h2>Heading 2</h2>
+						<h3>Heading 3</h3>
+						<h4>Heading 4</h4>
+						<h5>Heading 5</h5>
+						<h6>Heading 6</h6>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<ul>
+							<li>List Item #1</li>
+							<li>List Item #2</li>
+							<li>List Item #3</li>
+						</ul>
+					</div>
+					<div class="col">
+						<ol>
+							<li>List Item #1</li>
+							<li>List Item #2</li>
+							<li>List Item #3</li>
+						</ol>
+					</div>
+				</div>
+			</section>
+			<section id="buttons">
+				<div class="row">
+					<div class="col">
+						<h2>Buttons</h2>
+						<p>Type CSS includes two styles of buttons, a plain standard button for the <code>&lt;button&gt;</code> element, <code>&lt;input&gt;</code> elements, and the <code>.button</code> class; and a highlighted <code>.button-primary</code> class</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<button>Button</button>
+						<a href="#" class="button">Anchor Button</a>
+						<input type="submit" value="Submit Input">
+						<input type="button" value="Button Input">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<button class="button-primary">Button</button>
+						<a href="#" class="button-primary">Anchor Button</a>
+						<input type="submit" value="Submit Input" class="button-primary">
+						<input type="button" value="Button Input" class="button-primary">
+					</div>
+				</div>
+			</section>
+			<section id="forms">
+				<div class="row">
+					<div class="col">
+						<h2>Forms</h2>
+					</div>
+				</div>
+				<form>
+				<div class="row">
+					<div class="col-6">
+						<label for="textInputExample">Text Input</label>
+						<input type="text" placeholder="Full name" id="textInputExample">
+					</div>
+					<div class="col-6">
+						<label for="emailInputExample">Email Input</label>
+						<input type="email" placeholder="abc@xyz.com" id="emailInputExample">					
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<label for="textareaExample">Text Area</label>
+						<textarea placeholder="Some text here..." id="textareaExample"></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<label for="selectExample">Select Dropdown</label>
+						<select id="selectExample">
+							<option value="Option 1">Option 1</option>
+							<option value="Option 2">Option 2</option>
+							<option value="Option 3">Option 3</option>
+						</select>
+					</div>
+				</div>
+				</form>
+			</section>
+		</main>
+		<footer>
+			Placeholder Footer
+		</footer>
+    </body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/menu-toggle.js"></script>
+</html>

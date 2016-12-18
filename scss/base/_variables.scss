@@ -1,0 +1,13 @@
+$bp-larger-than-mobile    : "min-width: 400px" !default;
+$bp-larger-than-phablet   : "min-width: 550px" !default;
+$bp-larger-than-tablet    : "min-width: 750px" !default;
+$bp-larger-than-desktop   : "min-width: 1000px" !default;
+$bp-larger-than-desktophd : "min-width: 1200px" !default;
+
+$font-color-header: #2f2f2f;
+$font-color-body: #4f4f4f;
+$font-stack-header: 'Playfair Display', Georgia, Cambria, "Times New Roman", Times, serif !default;
+$font-stack-body: 'Droid Serif', Georgia, Cambria, "Times New Roman", Times, serif !default;
+$border-thin: 1px solid #8c8b8b;
+
+$grid-gutter: 0.5em;
