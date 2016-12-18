@@ -559,7 +559,7 @@ code {
   margin-top: 0.5em;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
-  max-width: 100; }
+  max-width: 100%; }
 
 .start {
   -ms-flex-pack: start;
