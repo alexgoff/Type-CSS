@@ -412,6 +412,10 @@ html {
 *:after {
   box-sizing: inherit; }
 
+*::selection {
+  color: #fff;
+  background-color: #4f4f4f; }
+
 #container {
   width: 100%;
   max-width: 100%;
@@ -486,11 +490,10 @@ p {
 
 a,
 a:link {
-  color: #039BE5;
-  text-decoration: none; }
+  color: #6f6f6f; }
 
 a:visited {
-  color: #9C27B0; }
+  color: #8f8f8f; }
 
 a:hover {
   text-decoration: underline; }
@@ -576,21 +579,6 @@ code {
   justify-content: flex-end;
   text-align: end; }
 
-.top {
-  -ms-flex-align: start;
-  -webkit-box-align: start;
-  align-items: flex-start; }
-
-.middle {
-  -ms-flex-align: center;
-  -webkit-box-align: center;
-  align-items: center; }
-
-.bottom {
-  -ms-flex-align: end;
-  -webkit-box-align: end;
-  align-items: flex-end; }
-
 .around {
   -ms-flex-pack: distribute;
   justify-content: space-around; }
@@ -599,16 +587,6 @@ code {
   -ms-flex-pack: justify;
   -webkit-box-pack: justify;
   justify-content: space-between; }
-
-.first {
-  -ms-flex-order: -1;
-  -webkit-box-ordinal-group: 0;
-  order: -1; }
-
-.last {
-  -ms-flex-order: 1;
-  -webkit-box-ordinal-group: 2;
-  order: 1; }
 
 @media (min-width: 550px) {
   .col {
@@ -766,7 +744,8 @@ input[type="text"]:focus,
 input[type="tel"]:focus,
 input[type="url"]:focus,
 input[type="password"]:focus {
-  outline: 0; }
+  outline: 0;
+  border-color: #2f2f2f; }
 
 input[type="color"],
 input[type="range"],
@@ -800,6 +779,11 @@ select {
   padding: 0.5em;
   width: 100%; }
 
+textarea:focus,
+select:focus {
+  outline: 0;
+  border-color: #2f2f2f; }
+
 /* Buttons */
 button,
 .button,
@@ -815,9 +799,10 @@ input[type="button"] {
   display: inline-block;
   font-family: "Droid Serif", Georgia, Cambria, "Times New Roman", Times, serif;
   line-height: 1.45;
-  margin: 0 0.25em 0.25em 0.25em;
+  margin-right: 0.25em;
   padding: 0.5em 2em 0.5em 2em;
-  text-align: center; }
+  text-align: center;
+  text-decoration: none; }
 
 button:hover,
 .button:hover,
@@ -838,8 +823,8 @@ input[type="button"]:focus {
 .button-primary:visited,
 input[type="submit"].button-primary,
 input[type="button"].button-primary {
-  background-color: #039BE5;
-  border: 1px solid #81D4FA;
+  background-color: #4f4f4f;
+  border: 1px solid #8c8b8b;
   cursor: pointer;
   color: #fff;
   border-radius: 2px;
@@ -847,16 +832,49 @@ input[type="button"].button-primary {
   display: inline-block;
   font-family: "Droid Serif", Georgia, Cambria, "Times New Roman", Times, serif;
   line-height: 1.45;
-  margin: 0 0.25em 0.25em 0.25em;
+  margin-right: 0.25em;
   padding: 0.5em 2em 0.5em 2em;
-  text-align: center; }
+  text-align: center;
+  text-decoration: none; }
 
 .button-primary:hover,
 input[type="button"].button-primary:hover,
 input[type="submit"].button-primary:hover {
-  background-color: #0288D1;
-  border: 1px solid #4FC3F7;
+  background-color: #2f2f2f;
+  border-color: #1f1f1f;
   color: #fff;
   text-decoration: none; }
+
+table {
+  border-collapse: collapse;
+  width: 100%; }
+
+thead {
+  background-color: #d1d1d1; }
+
+table,
+th,
+td {
+  border: 1px solid #8c8b8b; }
+
+th,
+td {
+  padding: 0.5em; }
+
+td {
+  border-bottom: transparent;
+  border-top: transparent; }
+
+.img-responsive {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
 
 /*# sourceMappingURL=type.css.map */

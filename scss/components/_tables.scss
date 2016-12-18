@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    background-color: #d1d1d1;
+}
+
+table,
+th,
+td {
+    border: $border-thin;
+}
+
+th,
+td {
+    padding: 0.5em;
+}
+
+td {
+    border-bottom: transparent;
+    border-top: transparent;
+}

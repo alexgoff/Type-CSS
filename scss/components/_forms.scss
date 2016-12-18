@@ -33,6 +33,7 @@ input[type="tel"]:focus,
 input[type="url"]:focus,
 input[type="password"]:focus {
 	outline: 0;
+	border-color: $font-color-header;
 }
 
 input[type="color"],
@@ -49,7 +50,7 @@ input[type="text"],
 input[type="tel"],
 input[type="url"],
 input[type="password"] {
-	border: $border-thin;
+	border: #{$border-thin};
 	border-radius: 2px;
 	font-family: $font-stack-body;
 	width: 100%;
@@ -68,4 +69,10 @@ select {
 	border-radius: 2px;
 	padding: 0.5em;
 	width: 100%;
+}
+
+textarea:focus,
+select:focus {
+	outline: 0;
+	border-color: $font-color-header;
 }

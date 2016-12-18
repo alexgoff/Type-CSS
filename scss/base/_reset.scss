@@ -9,3 +9,7 @@ html {
 *:after {
     box-sizing: inherit;
 }
+*::selection {
+    color: #fff;
+    background-color: $font-color-body;
+}

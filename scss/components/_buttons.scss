@@ -13,9 +13,10 @@ input[type="button"] {
 	display: inline-block;
 	font-family: $font-stack-body;
 	line-height: 1.45;
-	margin: 0 0.25em 0.25em 0.25em;
+	margin-right: 0.25em;
 	padding: 0.5em 2em 0.5em 2em;
 	text-align: center;
+	text-decoration: none;
 }
 button:hover,
 .button:hover,
@@ -37,8 +38,8 @@ input[type="button"]:focus {
 .button-primary:visited,
 input[type="submit"].button-primary,
 input[type="button"].button-primary {
-	background-color: #039BE5;
-	border: 1px solid #81D4FA;
+	background-color: $font-color-body;
+	border: $border-thin;
 	cursor: pointer;
 	color: #fff;
 	border-radius: 2px;
@@ -46,16 +47,17 @@ input[type="button"].button-primary {
 	display: inline-block;
 	font-family: $font-stack-body;
 	line-height: 1.45;
-	margin: 0 0.25em 0.25em 0.25em;
+	margin-right: 0.25em;
 	padding: 0.5em 2em 0.5em 2em;
 	text-align: center;
+	text-decoration: none;
 }
 
 .button-primary:hover,
 input[type="button"].button-primary:hover,
 input[type="submit"].button-primary:hover {
-	background-color: #0288D1;
-	border: 1px solid #4FC3F7;
+	background-color: $font-color-header;
+	border-color: #1f1f1f;
 	color: #fff;
 	text-decoration: none;
 }

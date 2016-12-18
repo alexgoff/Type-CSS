@@ -25,26 +25,8 @@
 				<li><a href="#typography">Typography</a></li>
 				<li><a href="#buttons">Buttons</a></li>
 				<li><a href="#forms">Forms</a></li>
-				<!--<li class="submenu">
-					<a class="dropdown-button" href="#">Menu Item #3</a>
-					<ul>
-						<li><a href="#">2nd level dropdown</a></li>
-						<li><a href="#">2nd level dropdown</a></li>
-						<li class="submenu">
-						<a class="dropdown-button" href="#">Another dropdown</a>
-						<ul>
-							<li><a href="#">3rd level dropdown</a></li>
-							<li class="submenu">
-							<a class="dropdown-button" href="#">Another dropdown</a>
-							<ul>
-								<li><a href="#">3rd level dropdown</a></li>
-								<li><a href="#">3rd level dropdown</a></li>
-							</ul>
-							</li>
-						</ul>
-						</li>
-					</ul>
-				</li>-->
+				<li><a href="#tables">Tables</a></li>
+				<li><a href="#utilities">Utilities</a></li>
 			</ul>
 		</nav>
 		<main>
@@ -138,6 +120,78 @@
 				<div class="row">
 					<div class="col-12 col-bg"><code>.col-12</code></div>
 				</div>
+				<div class="row">
+					<div class="col">
+						<h3>Grid Layout Utilities</h3>
+						<h4>Order</h4>
+						<p>Normal order</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col col-bg">1</div>
+					<div class="col col-bg">2</div>
+					<div class="col col-bg">3</div>
+					<div class="col col-bg">4</div>
+					<div class="col col-bg">5</div>
+				</div>
+				<div class="row">
+					<div class"col">
+						<p>Reverse order <code>.reverse</code> class</p>						
+					</div>
+				</div>
+				<div class="row reverse">
+					<div class="col col-bg">1</div>
+					<div class="col col-bg">2</div>
+					<div class="col col-bg">3</div>
+					<div class="col col-bg">4</div>
+					<div class="col col-bg">5</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<h4>Alignment</h4>
+						<p>Start <code>-start</code> class</p>						
+					</div>
+				</div>
+				<div class="row start">
+					<div class="col-4 col-bg"><code>.col-4</code></div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<p>Center <code>-center</code> class</p>						
+					</div>
+				</div>
+				<div class="row center">
+					<div class="col-4 col-bg"><code>.col-4</code></div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<p>End <code>-end</code> class</p>						
+					</div>
+				</div>
+				<div class="row end">
+					<div class="col-4 col-bg"><code>.col-4</code></div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<h4>Spacing</h4>
+						<p>Around <code>-around</code> class</p>						
+					</div>
+				</div>
+				<div class="row around">
+					<div class="col-2 col-bg"><code>.col-2</code></div>
+					<div class="col-2 col-bg"><code>.col-2</code></div>
+					<div class="col-2 col-bg"><code>.col-2</code></div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<p>Between <code>-between</code> class</p>						
+					</div>
+				</div>
+				<div class="row between">
+					<div class="col-2 col-bg"><code>.col-2</code></div>
+					<div class="col-2 col-bg"><code>.col-2</code></div>
+					<div class="col-2 col-bg"><code>.col-2</code></div>
+				</div>
 			</section>
 			<section id="typography">
 				<div class="row">
@@ -212,37 +266,110 @@
 					</div>
 				</div>
 				<form>
-				<div class="row">
-					<div class="col-6">
-						<label for="textInputExample">Text Input</label>
-						<input type="text" placeholder="Full name" id="textInputExample">
+					<div class="row">
+						<div class="col-6">
+							<label for="textInputExample">Text Input</label>
+							<input type="text" placeholder="Full name" id="textInputExample">
+						</div>
+						<div class="col-6">
+							<label for="emailInputExample">Email Input</label>
+							<input type="email" placeholder="abc@xyz.com" id="emailInputExample">					
+						</div>
 					</div>
-					<div class="col-6">
-						<label for="emailInputExample">Email Input</label>
-						<input type="email" placeholder="abc@xyz.com" id="emailInputExample">					
+					<div class="row">
+						<div class="col">
+							<label for="textareaExample">Text Area</label>
+							<textarea placeholder="Some text here..." id="textareaExample"></textarea>
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col">
-						<label for="textareaExample">Text Area</label>
-						<textarea placeholder="Some text here..." id="textareaExample"></textarea>
+					<div class="row">
+						<div class="col">
+							<label for="selectExample">Select Dropdown</label>
+							<select id="selectExample">
+								<option value="Option 1">Option 1</option>
+								<option value="Option 2">Option 2</option>
+								<option value="Option 3">Option 3</option>
+							</select>
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col">
-						<label for="selectExample">Select Dropdown</label>
-						<select id="selectExample">
-							<option value="Option 1">Option 1</option>
-							<option value="Option 2">Option 2</option>
-							<option value="Option 3">Option 3</option>
-						</select>
+					<div class="row">
+						<div class="col">
+							<input type="submit" value="Submit Input" class="button-primary">
+						</div>
 					</div>
-				</div>
 				</form>
+			</section>
+			<section id="tables">
+				<div class="row">
+					<div class="col">
+						<h2>Tables</h2>
+						<p>Simple table styling is provided so that tables will fill the width of their container and have a basic, minimal styling.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<table>
+							<thead>
+								<tr>
+									<th>#1</th>
+									<th>#2</th>
+									<th>#3</th>
+									<th>#4</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>-</td>
+									<td>-</td>
+									<td>-</td>
+									<td>-</td>
+								</tr>
+								<tr>
+									<td>-</td>
+									<td>-</td>
+									<td>-</td>
+									<td>-</td>
+								</tr>
+								<tr>
+									<td>-</td>
+									<td>-</td>
+									<td>-</td>
+									<td>-</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</section>
+			<section id="utilities">
+				<div class="row">
+					<div class="col">
+						<h2>Utility Classes</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-9">
+						<h3>Responsive Images</h3>
+						<p><code>.img-responsive</code> class forces images to fill the width of their container and scale with it.</p>
+					</div>
+					<div class="col-3">
+						<img class="img-responsive" src="img/img_demo.jpg" alt="Belfry tower">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<h3>Layout classes</h3>
+						<p><code>.left</code> and <code>.right</code> float elements to their respective positions.</p>
+					</div>
+				</div>
 			</section>
 		</main>
 		<footer>
-			Placeholder Footer
+			<div class="row">
+				<div class="col end">
+					&copy; Alex Goff 2016
+				</div>
+			</div>
 		</footer>
     </body>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
