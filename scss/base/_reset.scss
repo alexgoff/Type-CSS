@@ -13,3 +13,11 @@ html {
     color: #fff;
     background-color: $font-color-body;
 }
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr,
+section {
+	@include webkit-margin-remove;
+	margin-bottom: 1.5rem;
+}

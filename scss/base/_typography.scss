@@ -1,8 +1,8 @@
 body {
     font-weight: 400;
     font-family: $font-stack-body;
-    font-size: 100%;
-    line-height: 1.45;
+    font-size: 16px;
+    line-height: 1.5;
     color: $font-color-body;
     overflow-y: scroll
 }
@@ -13,41 +13,36 @@ h3,
 h4,
 h5,
 h6 {
-    color: #2f2f2f;
+    color: $font-color-header;
     display: block;
     font-weight: 600;
-    font-family: 'Playfair Display', Georgia, Cambria, "Times New Roman", Times, serif;
-    margin: 1.25em 0 0.5em;
-    line-height: 1.2;
+    font-family: $font-stack-header;
+    line-height: 1.25;
 }
 h1 {
-    margin-top: 0;
-    font-size: 2.441em;
+    font-size: 2.5rem;
 }
 h2 {
-    font-size: 1.953em;
+    font-size: 2rem;
 }
 h3 {
-    font-size: 1.563em;
+    font-size: 1.5rem;
 }
 h4 {
-    font-size: 1.25em;
+    font-size: 1.25rem;
 }
 h5 {
-	font-size: 1em;
+	font-size: 1rem;
 }
 h6 {
-	font-size: 0.8em;
-}
-p {
-    margin-bottom: 1.3em;
+	font-size: 0.75rem;
 }
 a,
 a:link {
-	color: #6f6f6f;
+	color: #666;
 }
 a:visited {
-	color: #8f8f8f;
+	color: #888;
 }
 a:hover {
 	text-decoration: underline;
@@ -57,14 +52,14 @@ a:active {
 }
 
 hr {
-    border-top: 1px solid #8c8b8b;
+    border-top: $border-thin;
 }
 ul,
 ol {
-    padding-left: 1.5em;
+    padding-left: 1.5rem;
 }
 code {
 	background-color: #f1f1f1;
-	border-radius: 1px;
-	padding: 0.1em 0.2em 0.1em 0.2em;
+	border-radius: $border-radius-default;
+	padding: 0.125em 0.25em 0.125em 0.25rem;
 }

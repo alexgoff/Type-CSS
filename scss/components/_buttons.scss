@@ -7,12 +7,12 @@ input[type="submit"],
 input[type="button"] {
 	background-color: #fff;
 	border: $border-thin;
-	border-radius: 2px;
+	border-radius: $border-radius-default;
 	color: $font-color-body;
 	cursor: pointer;
 	display: inline-block;
 	font-family: $font-stack-body;
-	line-height: 1.45;
+	line-height: 1.5;
 	margin-right: 0.25em;
 	margin-top: 0.25em;
 	padding: 0.5em 2em 0.5em 2em;
@@ -43,11 +43,11 @@ input[type="button"].button-primary {
 	border: $border-thin;
 	cursor: pointer;
 	color: #fff;
-	border-radius: 2px;
+	border-radius: $border-radius-default;
 	cursor: pointer;
 	display: inline-block;
 	font-family: $font-stack-body;
-	line-height: 1.45;
+	line-height: 1.5;
 	margin-right: 0.25em;
 	margin-top: 0.25em;
 	padding: 0.5em 2em 0.5em 2em;
