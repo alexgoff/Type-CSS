@@ -12,9 +12,9 @@ input[type="button"] {
 	cursor: pointer;
 	display: inline-block;
 	font-family: $font-stack-body;
+	font-size: 100%;
 	line-height: 1.5;
 	margin-right: 0.25em;
-	margin-top: 0.25em;
 	padding: 0.5em 2em 0.5em 2em;
 	text-align: center;
 	text-decoration: none;
@@ -47,9 +47,9 @@ input[type="button"].button-primary {
 	cursor: pointer;
 	display: inline-block;
 	font-family: $font-stack-body;
+	font-size: 100%;
 	line-height: 1.5;
 	margin-right: 0.25em;
-	margin-top: 0.25em;
 	padding: 0.5em 2em 0.5em 2em;
 	text-align: center;
 	text-decoration: none;

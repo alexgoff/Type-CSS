@@ -1,7 +1,10 @@
+html {
+    font-size: 16px;
+}
+
 body {
     font-weight: 400;
     font-family: $font-stack-body;
-    font-size: 16px;
     line-height: 1.5;
     color: $font-color-body;
     overflow-y: scroll
