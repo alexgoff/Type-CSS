@@ -1,7 +1,47 @@
-/* Type CSS Begin */
-/* Resets *********/
-html {
-  box-sizing: border-box; }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video,
+input, textarea, select {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
 
 *,
 *:before,
@@ -11,22 +51,6 @@ html {
 *::selection {
   color: #fff;
   background-color: #444; }
-
-h1, h2, h3, h4, h5, h6, hgroup,
-ul, ol, dd,
-p, figure,
-pre, table, fieldset, hr,
-section, article,
-button, input,
-.button,
-.button-primary,
-textarea,
-select {
-  -webkit-margin-after: 0;
-  -webkit-margin-before: 0;
-  -webkit-margin-end: 0;
-  -webkit-margin-start: 0;
-  margin-bottom: 1.5rem; }
 
 #container {
   width: 100%;
@@ -45,8 +69,23 @@ section:first-of-type {
 
 footer {
   border-top: 1px solid #8c8b8b;
-  margin-top: 2.5rem;
   padding-top: 0.5rem; }
+
+h1, h2, h3, h4, h5, h6, hgroup,
+ul, ol, dd,
+p, figure,
+pre, table, fieldset, hr,
+section, article,
+button, input,
+.button,
+.button-primary,
+textarea,
+select {
+  -webkit-margin-after: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-end: 0;
+  -webkit-margin-start: 0;
+  margin-bottom: 1.5rem; }
 
 @media (min-width: 46rem) {
   #container {
@@ -62,8 +101,9 @@ html {
 
 body {
   font-weight: 400;
-  font-family: "Droid Serif", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Droid Sans", Arial, Helvetica Neue, Helvetica, sans-serif;
   line-height: 1.5;
+  letter-spacing: 0.01rem;
   color: #444;
   overflow-y: scroll; }
 
@@ -372,7 +412,7 @@ input[type="url"],
 input[type="password"] {
   border: 1px solid #8c8b8b;
   border-radius: 2px;
-  font-family: "Droid Serif", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Droid Sans", Arial, Helvetica Neue, Helvetica, sans-serif;
   width: 100%;
   padding: 0.5em; }
 
@@ -382,7 +422,7 @@ label {
 textarea,
 select {
   box-sizing: border-box;
-  font-family: "Droid Serif", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Droid Sans", Arial, Helvetica Neue, Helvetica, sans-serif;
   border: 1px solid #8c8b8b;
   border-radius: 2px;
   padding: 0.5em;
@@ -406,7 +446,7 @@ input[type="button"] {
   color: #444;
   cursor: pointer;
   display: inline-block;
-  font-family: "Droid Serif", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Droid Sans", Arial, Helvetica Neue, Helvetica, sans-serif;
   font-size: 100%;
   line-height: 1.5;
   margin-right: 0.25em;
@@ -440,7 +480,7 @@ input[type="button"].button-primary {
   border-radius: 2px;
   cursor: pointer;
   display: inline-block;
-  font-family: "Droid Serif", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Droid Sans", Arial, Helvetica Neue, Helvetica, sans-serif;
   font-size: 100%;
   line-height: 1.5;
   margin-right: 0.25em;

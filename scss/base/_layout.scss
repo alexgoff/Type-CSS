@@ -15,8 +15,21 @@ section:first-of-type {
 }
 footer {
     border-top: $border-thin;
-    margin-top: 2.5rem;
     padding-top: 0.5rem;
+}
+
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr,
+section, article,
+button, input,
+.button,
+.button-primary,
+textarea,
+select {
+	@include webkit-margin-remove;
+	margin-bottom: 1.5rem;
 }
 
 // Larger than tablet

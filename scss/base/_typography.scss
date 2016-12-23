@@ -6,6 +6,7 @@ body {
     font-weight: 400;
     font-family: $font-stack-body;
     line-height: 1.5;
+	letter-spacing: 0.01rem;
     color: $font-color-body;
     overflow-y: scroll
 }
