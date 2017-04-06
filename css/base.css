@@ -156,7 +156,7 @@ html {
 
 body {
   font-weight: 400;
-  font-family: "Droid Sans", Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: "Lato", Arial, Helvetica Neue, Helvetica, sans-serif;
   line-height: 1.5;
   letter-spacing: 0.01rem;
   color: #444;
@@ -171,7 +171,7 @@ h6 {
   color: #222;
   display: block;
   font-weight: 600;
-  font-family: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Libre Baskerville", Georgia, Cambria, "Times New Roman", Times, serif;
   line-height: 1.25; }
 
 h1 {

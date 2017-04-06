@@ -156,7 +156,7 @@ html {
 
 body {
   font-weight: 400;
-  font-family: "Droid Sans", Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: "Lato", Arial, Helvetica Neue, Helvetica, sans-serif;
   line-height: 1.5;
   letter-spacing: 0.01rem;
   color: #444;
@@ -171,7 +171,7 @@ h6 {
   color: #222;
   display: block;
   font-weight: 600;
-  font-family: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Libre Baskerville", Georgia, Cambria, "Times New Roman", Times, serif;
   line-height: 1.25; }
 
 h1 {
@@ -467,7 +467,7 @@ input[type="url"],
 input[type="password"] {
   border: 1px solid #8c8b8b;
   border-radius: 2px;
-  font-family: "Droid Sans", Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: "Lato", Arial, Helvetica Neue, Helvetica, sans-serif;
   width: 100%;
   padding: 0.5em; }
 
@@ -477,7 +477,7 @@ label {
 textarea,
 select {
   box-sizing: border-box;
-  font-family: "Droid Sans", Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: "Lato", Arial, Helvetica Neue, Helvetica, sans-serif;
   border: 1px solid #8c8b8b;
   border-radius: 2px;
   padding: 0.5em;
@@ -501,7 +501,7 @@ input[type="button"] {
   color: #444;
   cursor: pointer;
   display: inline-block;
-  font-family: "Droid Sans", Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: "Lato", Arial, Helvetica Neue, Helvetica, sans-serif;
   font-size: 100%;
   line-height: 1.5;
   margin-right: 0.25em;
@@ -535,7 +535,7 @@ input[type="button"].button-primary {
   border-radius: 2px;
   cursor: pointer;
   display: inline-block;
-  font-family: "Droid Sans", Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: "Lato", Arial, Helvetica Neue, Helvetica, sans-serif;
   font-size: 100%;
   line-height: 1.5;
   margin-right: 0.25em;
