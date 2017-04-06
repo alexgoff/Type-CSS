@@ -73,6 +73,7 @@ footer {
 
 h1, h2, h3, h4, h5, h6, hgroup,
 ul, ol, dd,
+blockquote,
 p, figure,
 pre, table, fieldset, hr,
 section, article,
@@ -301,7 +302,7 @@ code {
     flex-basis: calc(100% - 0.5em);
     max-width: calc(100% - 0.5em); } }
 /* Navbar */
-nav ul {
+nav .navbar {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -312,7 +313,7 @@ nav ul {
   top: 100%;
   width: 100%; }
 
-nav ul li {
+nav .navbar .navbar-item {
   border-top: 1px solid #8c8b8b;
   flex: 1 0 auto;
   position: relative;
@@ -320,45 +321,45 @@ nav ul li {
 
 nav a,
 nav a:link,
-nav a:visited,
+nav a:active,
 nav a:hover,
-nav a:active {
+nav a:visited {
   color: #444; }
 
-nav > ul > li:last-of-type {
+nav > .navbar > .navbar-item:last-of-type {
   border-bottom: 1px solid #8c8b8b; }
 
-nav ul li a {
+nav .navbar .navbar-item a {
   color: #444;
   display: inline-block;
   font-weight: bold;
   text-decoration: none;
-  padding: 0.5em 0 0.5em 0;
+  padding: 0.5em 0;
   width: 100%; }
 
-nav ul li a:hover {
-  text-decoration: underline; }
+nav .navbar .navbar-item a:hover {
+  text-decoration: under-line; }
 
-nav li ul {
+nav .navbar-item .navbar {
   background-color: #f1f1f1;
   top: 100%;
   position: absolute; }
 
-nav li ul li ul {
+nav .navbar-item .navbar .navbar-item .navbar {
   background-color: #e1e1e1; }
 
-nav li li:last-child a {
-  border-bottom: none; }
+nav .navbar-item .navbar-item:last-child a {
+  border-bottom: 0; }
 
-.submenu > ul {
+.submenu > .navbar {
   display: none; }
 
 @media (min-width: 46rem) {
-  nav ul {
+  nav .navbar {
     flex-direction: row;
     justify-content: space-around; }
 
-  nav ul li {
+  nav .navbar .navbar-item {
     border-bottom: 1px solid #8c8b8b; } }
 /* Forms */
 input[type="color"],
@@ -527,5 +528,16 @@ td {
 
 .right {
   float: right; }
+
+blockquote {
+  border-left: 0.25rem solid #444;
+  font-style: italic;
+  padding-left: .5rem; }
+
+.card {
+  background-color: #fefefe;
+  border: 1px solid #8c8b8b;
+  box-shadow: 0 2px 0.5rem rgba(0, 0, 0, 0.1);
+  padding: 2rem; }
 
 /*# sourceMappingURL=type.css.map */
