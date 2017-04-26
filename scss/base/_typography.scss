@@ -6,9 +6,9 @@ body {
     font-weight: 400;
     font-family: $font-stack-body;
     line-height: 1.5;
-	letter-spacing: 0.01rem;
+    letter-spacing: 0.01rem;
     color: $font-color-body;
-    overflow-y: scroll
+    overflow-y: scroll;
 }
 
 h1,
@@ -23,47 +23,55 @@ h6 {
     font-family: $font-stack-header;
     line-height: 1.25;
 }
+
 h1 {
     font-size: 2.5rem;
 }
+
 h2 {
     font-size: 2rem;
 }
+
 h3 {
     font-size: 1.5rem;
 }
+
 h4 {
     font-size: 1.25rem;
 }
+
 h5 {
-	font-size: 1rem;
+    font-size: 1rem;
 }
+
 h6 {
-	font-size: 0.75rem;
+    font-size: 75rem;
 }
+
 a,
 a:link {
-	color: #666;
+    color: #666;
 }
-a:visited {
-	color: #888;
-}
-a:hover {
-	text-decoration: underline;
-}
-a:active {
 
+a:visited {
+    color: #888;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 hr {
     border-top: $border-thin;
 }
-ul,
-ol {
+
+ol,
+ul {
     padding-left: 1.5rem;
 }
+
 code {
-	background-color: #f1f1f1;
-	border-radius: $border-radius-default;
-	padding: 0.125em 0.25em 0.125em 0.25rem;
+    background-color: #f1f1f1;
+    border-radius: $border-radius-default;
+    padding: .125em .25em .125em .25rem;
 }

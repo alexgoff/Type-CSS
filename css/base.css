@@ -190,7 +190,7 @@ h5 {
   font-size: 1rem; }
 
 h6 {
-  font-size: 0.75rem; }
+  font-size: 75rem; }
 
 a,
 a:link {
@@ -205,13 +205,13 @@ a:hover {
 hr {
   border-top: 1px solid #8c8b8b; }
 
-ul,
-ol {
+ol,
+ul {
   padding-left: 1.5rem; }
 
 code {
   background-color: #f1f1f1;
   border-radius: 2px;
-  padding: 0.125em 0.25em 0.125em 0.25rem; }
+  padding: .125em .25em .125em .25rem; }
 
 /*# sourceMappingURL=base.css.map */
